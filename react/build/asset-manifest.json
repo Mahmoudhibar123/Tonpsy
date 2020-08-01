@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cf91ddd.chunk.css",
+    "main.js": "/static/js/main.3200ff93.chunk.js",
+    "main.js.map": "/static/js/main.3200ff93.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/css/2.b141f491.chunk.css": "/static/css/2.b141f491.chunk.css",
+    "static/js/2.f5449888.chunk.js": "/static/js/2.f5449888.chunk.js",
+    "static/js/2.f5449888.chunk.js.map": "/static/js/2.f5449888.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.21522fa188febe652e023f73db5de285.js": "/precache-manifest.21522fa188febe652e023f73db5de285.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b141f491.chunk.css.map": "/static/css/2.b141f491.chunk.css.map",
+    "static/css/main.4cf91ddd.chunk.css.map": "/static/css/main.4cf91ddd.chunk.css.map",
+    "static/js/2.f5449888.chunk.js.LICENSE.txt": "/static/js/2.f5449888.chunk.js.LICENSE.txt",
+    "static/media/card_type.jpg": "/static/media/card_type.6f269988.jpg",
+    "static/media/patient.jpg": "/static/media/patient.ed98c157.jpg",
+    "static/media/profile-placeholder.png": "/static/media/profile-placeholder.4788048f.png",
+    "static/media/therapist.jpg": "/static/media/therapist.00990ea4.jpg",
+    "static/media/therapists-grid_2x.png": "/static/media/therapists-grid_2x.65d6940e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3e0c4.js",
+    "static/css/2.b141f491.chunk.css",
+    "static/js/2.f5449888.chunk.js",
+    "static/css/main.4cf91ddd.chunk.css",
+    "static/js/main.3200ff93.chunk.js"
+  ]
+}

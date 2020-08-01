@@ -1,0 +1,100 @@
+.ucfeather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/*
+   * Sidebar
+   */
+
+.ucsidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  width:150px;
+}
+
+.ucmain-content.container-fluid {
+  padding-left: 150px;
+  background: #fff;
+}
+.ucinner__content{
+  min-height: calc(100vh - 48px);
+  padding: 15px;
+  background: #e6e6e6;
+}
+
+.ucsidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; /* Height of navbar */
+  height: calc(100vh - 48px);
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.ucsidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  align-items: center;
+  padding: 24px 15px;
+  flex-direction: column;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.ucsidebar .nav-link:hover{
+  background: #eaeaea;
+}
+
+.ucsidebar .nav-link .feather {
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.ucsidebar .nav-link.active {
+  background: #19aa8d;
+  color:#fff;
+}
+
+.ucsidebar .nav-link:hover .feather,
+.ucsidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.ucsidebar-heading {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+/*
+   * Navbar
+   */
+
+.ucnavbar-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.ucnavbar .form-control {
+  padding: 0.75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+/*
+   * Utilities
+   */
+
+.ucborder-top {
+  border-top: 1px solid #e5e5e5;
+}
+.ucborder-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}

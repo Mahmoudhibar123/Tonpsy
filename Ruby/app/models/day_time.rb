@@ -1,0 +1,2 @@
+class DayTime < ApplicationRecord
+end
